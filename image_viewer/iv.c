@@ -7,10 +7,10 @@ int main () {
 
   FILE *pin = stdin;
   char *temp = calloc(1000, sizeof(char));
-  // read format p3 or p6
+  // read format p6
   fgets(temp, 1000, pin);
 
-  if (strncmp(temp, "P3", 2) != 0 && strncmp(temp, "P6", 2) != 0 ) {
+  if (strncmp(temp, "P6", 2) != 0) {
     free(temp);
     printf("ERR: Not a valid ppm file!!!\n");
     return EXIT_FAILURE;

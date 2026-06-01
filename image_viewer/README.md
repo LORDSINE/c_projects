@@ -1,6 +1,6 @@
 # Image Viewer
 
-A simple C program for viewing PPM image files.
+A simple C program for viewing PPM image files. Currently it only displays the P6 ppm image files.
 
 ## Features
 
